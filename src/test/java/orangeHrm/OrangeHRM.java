@@ -66,17 +66,17 @@ public class OrangeHRM extends Basesetup {
     public void searchEmployeeByName() {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
 
-        // Go to PIM > Employee List
+        
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//span[text()='PIM']"))).click();
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[normalize-space()='Employee List']"))).click();
 
-        // Enter employee name
+   
         driver.findElements(By.tagName("input")).get(1).sendKeys("Ram");
 
-        // Click Search
+        
         driver.findElement(By.xpath("//button[normalize-space()='Search']")).click();
 
-        // Get search result message
+        
         String message = wait.until(ExpectedConditions
             .visibilityOfElementLocated(By.xpath("//span[@class='oxd-text oxd-text--span']")))
             .getText();
