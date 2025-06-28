@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-06-28T22:10:52 NPT" name="Default suite" finished-at="2025-06-28T22:11:25 NPT" duration-ms="33342">
+    <groups>
+    </groups>
+    <test started-at="2025-06-28T22:10:52 NPT" name="Default test" finished-at="2025-06-28T22:11:25 NPT" duration-ms="33342">
+      <class name="orangeHrm.OrangeHRM">
+        <test-method is-config="true" signature="setup()[pri:0, instance:orangeHrm.OrangeHRM@198b6731]" started-at="2025-06-28T22:10:52 NPT" name="setup" finished-at="2025-06-28T22:11:02 NPT" duration-ms="9552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InvalidloginTest()[pri:1, instance:orangeHrm.OrangeHRM@198b6731]" started-at="2025-06-28T22:11:02 NPT" name="InvalidloginTest" finished-at="2025-06-28T22:11:04 NPT" duration-ms="2559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidloginTest -->
+        <test-method signature="loginTest()[pri:2, instance:orangeHrm.OrangeHRM@198b6731]" started-at="2025-06-28T22:11:04 NPT" name="loginTest" finished-at="2025-06-28T22:11:06 NPT" duration-ms="2118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="addEmployee()[pri:3, instance:orangeHrm.OrangeHRM@198b6731]" started-at="2025-06-28T22:11:06 NPT" name="addEmployee" finished-at="2025-06-28T22:11:14 NPT" duration-ms="8171" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployee -->
+        <test-method signature="searchEmployeeByName()[pri:4, instance:orangeHrm.OrangeHRM@198b6731]" started-at="2025-06-28T22:11:14 NPT" name="searchEmployeeByName" finished-at="2025-06-28T22:11:18 NPT" duration-ms="3845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchEmployeeByName -->
+        <test-method signature="logout()[pri:5, instance:orangeHrm.OrangeHRM@198b6731]" started-at="2025-06-28T22:11:18 NPT" name="logout" finished-at="2025-06-28T22:11:20 NPT" duration-ms="1568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:orangeHrm.OrangeHRM@198b6731]" started-at="2025-06-28T22:11:20 NPT" name="tearDown" finished-at="2025-06-28T22:11:25 NPT" duration-ms="5433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- orangeHrm.OrangeHRM -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
